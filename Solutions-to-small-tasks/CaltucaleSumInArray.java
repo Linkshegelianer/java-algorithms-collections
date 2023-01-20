@@ -5,8 +5,7 @@ public class CalculateSumInArray {
 		}
 		var sum = 0;
 
-		for (var i = 0; i < numbers.length; i++) {
-			int currentElement = numbers[i];
+		for (var number : numbers) { // or you can use for loop as another option with creating a variable contaiting current i
 			sum += currentElement;
 		}
 		return sum;
