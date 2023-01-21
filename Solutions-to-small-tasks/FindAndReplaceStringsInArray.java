@@ -5,7 +5,6 @@ import org.apache.commons.lang3.ArrayUtils;
 
 class FindAndReplaceStringsInArray {
 	
-	
 	public static String makeCensoredWithArrayUtils(String text, String[] stopWords) {
 		var words = text.split(" ");
 		var wordsCount = words.length;
