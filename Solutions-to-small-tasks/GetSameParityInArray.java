@@ -1,7 +1,7 @@
 // The method takes an array and creates another one, which consists of elements that have the same parity as the first element of the input array
 import java.util.Arrays;
 
-class GetSameParity {
+class GetSameParityInArray {
 	public static int[] getSameParity(int[] numbers) {
 	var numbersCount = numbers.length;
 		if (numbersCount == 0) { 
