@@ -4,11 +4,13 @@
 import org.apache.commons.lang3.ArrayUtils;
 
 class FindAndReplaceStringsInArray {
-	var words = text.split(" ");
-		var wordsCount = words.length;
-		var censoredWords = new String[wordsCount];
+	
 	
 	public static String makeCensoredWithArrayUtils(String text, String[] stopWords) {
+		var words = text.split(" ");
+		var wordsCount = words.length;
+		var censoredWords = new String[wordsCount];
+		
 		for (var i = 0; i < wordsCount; i++) {
 			var word = words[i];
 			var newWord = ArrayUtils.contains(stopWords, word) ? "$#%!" : word;
@@ -18,6 +20,10 @@ class FindAndReplaceStringsInArray {
 	}
 
 	public static String makeCensoredWithoutArrayUtils(String text, String[] stopWords) {
+		var words = text.split(" ");
+		var wordsCount = words.length;
+		var censoredWords = new String[wordsCount];
+		
         for (var i = 0; i < wordsCount; i++) { // this version of the method uses a nested for loop to check if the current word from the input text is in the array
             var word = words[i];
             boolean found = false;
