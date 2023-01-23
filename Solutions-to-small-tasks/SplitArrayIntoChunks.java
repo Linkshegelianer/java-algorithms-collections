@@ -8,12 +8,12 @@ public class SplitArrayIntoChunks {
 		int numberOfChunks = (int) Math.ceil((double) input.length / chunkSize); // array is divided into the number of chunks, Math.ceil() rounds it to the nearest int
 		String[][] result = new String[numberOfChunks][]; // create new two-dimensional array. The first one has length of previously calculated number of chunks
 
-		int start = 0;
-		int end = chunkSize; 
+		int start = 0; 
+		int end = chunkSize; // chunk boundaries
 
-		for (var i = 0; i < numberOfChunks; i++) { // iterate over the number of chunks
-			if (end > input.length) {
-				end = input.length;
+		for (var i = 0; i < numberOfChunks; i++) { 
+			if (end > input.length) { // this condition will be met on the last iteration
+				end = input.length; // do this to avoid an "ArrayIndexOutOfBoundsException" error & for the Arrays.copyOfRange() method
 			}
 			result[i] = Arrays.copyOfRange(input, start, end); // copy elements to every chunk (array[] original, int from, int to)
 			start += chunkSize; // move to creating a new chunk
