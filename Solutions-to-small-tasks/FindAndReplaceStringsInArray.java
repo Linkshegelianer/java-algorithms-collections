@@ -12,10 +12,10 @@ class FindAndReplaceStringsInArray {
 		
 		for (var i = 0; i < wordsCount; i++) {
 			var word = words[i];
-			var newWord = ArrayUtils.contains(stopWords, word) ? "$#%!" : word;
+			var newWord = ArrayUtils.contains(stopWords, word) ? "$#%!" : word; // checking if the stopWords[] contains the current word 
 			censoredWords[i] = newWord;
 		}
-		return String.join(" ", censoredWords);
+		return String.join(" ", censoredWords); // reassemble the String
 	}
 
 	public static String makeCensoredWithoutArrayUtils(String text, String[] stopWords) {
