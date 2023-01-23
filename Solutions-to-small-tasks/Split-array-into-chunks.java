@@ -28,4 +28,3 @@ public class SplitArrayIntoChunks {
 		System.out.println(Arrays.deepToString(example1)); // must be [["1", "2"], ["3", "4"], ["5"]]
 		}
 	}
-
