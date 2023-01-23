@@ -23,4 +23,3 @@ public class SwapElementsInArray {
 		System.out.println(Arrays.toString(example2)); // should be [6, 3, 4, 5, 2]
 	}
 }
-
