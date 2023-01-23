@@ -1,4 +1,4 @@
-// The code is checking if the input array is a continuous sequence.
+// The code is checking if the input array is a continuous sequence of integers.
 public class ContinuousSequenceArray {
 	public static boolean isContinuousSequense(int[] input) {
 		if (input == null || input.length <= 1) {
@@ -8,7 +8,7 @@ public class ContinuousSequenceArray {
 		int min = input[0]; 
 		for (var i = 1; i <= input.length - 1; i++) {
 			if (input[i] == min + 1) {
-				min = input[i];
+				min = input[i]; // the loop will continue until every element is checked, but if the sequence is wrong it will stop and return 'false' statement
 			} else {
 				return false;
 			}
@@ -25,4 +25,3 @@ public class ContinuousSequenceArray {
 		System.out.println(isContinuousSequense(example3)); // false
 	}
 }
-
