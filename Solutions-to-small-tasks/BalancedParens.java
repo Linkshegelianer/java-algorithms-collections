@@ -1,4 +1,5 @@
-/* Implement the method, which accepts a string consisting only of '(' and ')', and checks whether this string is correct. A string is considered correct (balanced) if its structure meets the requirements:
+/* The method accepts a string consisting only of '(' and ')' and checks whether this string is correct. 
+ * A string is considered correct (balanced) if its structure meets the requirements:
  * Parens are paired chars, each '(' must have a corresponding ')'.
  * ')' should not go ahead of the '('.
 */
