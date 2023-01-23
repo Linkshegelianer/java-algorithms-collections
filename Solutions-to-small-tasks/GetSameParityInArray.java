@@ -1,5 +1,5 @@
 // The method takes an integer array and creates another one, which consists of elements that have the same parity as the first element of the input array
-import java.util.Arrays; // to use Arrays.copyOfRange()
+import java.util.Arrays; // to use Arrays.copyOfRange() and Arrays.toString()
 
 class GetSameParityInArray {
 	public static int[] getSameParity(int[] numbers) {
