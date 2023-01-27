@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class RotateMatrix {
-	public static int[][] rotateLeft(int[][] matrix) {
+	public static int[][] rotateRight(int[][] matrix) {
 		int rows = matrix.length;
 		int cols = matrix[0].length;
 
@@ -15,7 +15,7 @@ public class RotateMatrix {
 		return result;
 	}
 
-	public static int[][] rotateRight(int[][] matrix) {
+	public static int[][] rotateLeft(int[][] matrix) {
 		int rows = matrix.length;
 		int cols = matrix[0].length;
 
