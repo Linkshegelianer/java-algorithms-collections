@@ -6,6 +6,8 @@ The lines of the triangle are symmetrical with respect to the vertical axis.
 
 The method generateRow returns the specified string of Pascal's triangle as an array of integers.
  */
+
+import java.util.Arrays;
 public class PascalsTriangle {
     public static int factorial(int n) {
         int result = 1;
@@ -22,5 +24,9 @@ public class PascalsTriangle {
             result[i] = factorial(row) / (factorial(i) * factorial(row - i));
         }
         return result;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(Arrays.toString(generateRow(5)));
     }
 }
