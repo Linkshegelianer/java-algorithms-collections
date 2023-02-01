@@ -32,7 +32,7 @@ This was my first big GitHub-repo, so not only was I learning Java by adding one
 * **Sorting**
   * [Bubble sort](https://github.com/Linkshegelianer/practice-with-java/blob/main/Solutions-to-small-tasks/Bubble-sort.java)
 * **Strings**
-* [Palindrome]()
+  * **Palindrome**
 
 ## Data structures
 * **Linked List**
@@ -46,6 +46,37 @@ This was my first big GitHub-repo, so not only was I learning Java by adding one
     
 ## OOP examples
   * [Circle](https://github.com/Linkshegelianer/practice-with-java/blob/main/OOP-explanations/Circle.java) - example of building a class
+
+## Useful information:
+
+![Big O graphs](./assets/big-o-complexity-chart.png)
+
+Source: [Big O Cheat Sheet](http://bigocheatsheet.com/).
+
+| Big O Notation | Type        | Computations for 10 elements | Computations for 100 elements | Computations for 1000 elements  |
+| -------------- | ----------- | ---------------------------- | ----------------------------- | ------------------------------- |
+| **O(1)**       | Constant    | 1                            | 1                             | 1                               |
+| **O(log N)**   | Logarithmic | 3                            | 6                             | 9                               |
+| **O(N)**       | Linear      | 10                           | 100                           | 1000                            |
+| **O(N log N)** | n log(n)    | 30                           | 600                           | 9000                            |
+| **O(N^2)**     | Quadratic   | 100                          | 10000                         | 1000000                         |
+| **O(2^N)**     | Exponential | 1024                         | 1.26e+29                      | 1.07e+301                       |
+| **O(N!)**      | Factorial   | 3628800                      | 9.3e+157                      | 4.02e+2567                      |
++ add **O(N + K)** and **O(NK)**
+
+### Array Sorting Algorithms Complexity
+
+| Algorithm           | Time complexity                                  | Auxiliary data    |
+| --------------------| -------------------------------------------------| ------------------| 
+|                     | Best           | Average        | Worst          | Worst             |
+| **Quick sort**      | **O(N log N)** | **O(N log N)** | **O(N^2)**     | **O(N)**          |
+| **Merge sort**      | **O(N log N)** | **O(N log N)** | **O(N log N)** | **O(N)**          |
+| **Heapsort**        | **O(N log N)** | **O(N log N)** | **O(N log N)** | **O(1)**          |
+| **Bubble sort**     | **O(N)**       | **O(N^2)**     | **O(N^2)**     | **O(1)**          |
+| **Insertion sort**  | **O(N)**       | **O(N^2)**     | **O(N^2)**     | **O(1)**          |
+| **Selection sort**  | **O(N^2)**     | **O(N^2)**     | **O(N^2)**     | **O(1)**          |
+| **Bucket sort**     | **O(N + K)**   | **O(N + K)**   | **O(N^2)**     | **O(NK)**         |
+| **Radix sort**      | **O(NK)**      | **O(NK)**      | **O(NK)**      | **O(N + K)**      | 
 
 
 ![](https://github.com/Linkshegelianer/Linkshegelianer/blob/main/411676.160.gif)
