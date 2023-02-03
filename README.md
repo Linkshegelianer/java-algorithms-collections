@@ -6,6 +6,8 @@ I'm not the full author for most of these solutions, but I try to write and rewr
 
 This was my first big GitHub-repo, so not only was I learning Java by adding one-two files every day after browsing Leetcode or Codewars, but also learтing Git and its features, so sometimes there's too many commits that could be united in one and comments are not so informative. Still, I use this repo as a way to keep track of my record and preserve motivation to solve tasks in Java daily. 
 
+![](https://github.com/Linkshegelianer/Linkshegelianer/blob/main/411676.160.gif)
+
 <hr/>
 
 ## Algorithms
@@ -43,8 +45,3 @@ This was my first big GitHub-repo, so not only was I learning Java by adding one
 * **Heap**      
 * **Hashing**  
 * **Graph**    
-    
-## OOP examples
-  * [Circle](https://github.com/Linkshegelianer/practice-with-java/blob/main/OOP-explanations/Circle.java) - example of building a class
-
-![](https://github.com/Linkshegelianer/Linkshegelianer/blob/main/411676.160.gif)
