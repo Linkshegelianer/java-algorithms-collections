@@ -1,10 +1,10 @@
 # Practice with Java 
 
-A repository for algorithms and data structures in Java. I've created this repo to save solutions to questions I've found challenging and important for applying for a junior Java-dev role. I comment on some of the lines for my own understanding, but maybe someone can also find these solutions useful. 
+A repository for algorithms and data structures in Java. I've created this repo to save solutions to questions I've found challenging and important for applying for a junior Java-dev role. I comment on some of the lines for my own understanding, but maybe you can also find these solutions useful. 
 
-I'm not the full author for most of these solutions, but I try to write and rewrite them as efficient as possible. Most solutions can be compiled right away to check if they work correctly.
+I'm not the full author for most of these solutions, but I try to keep them as efficient as possible. Most solutions can be compiled right away to check if they work correctly.
 
-This was my first big GitHub-repo, so not only was I learning Java by adding one-two files every day after browsing Leetcode or Codewars, but also learтing Git and its features, so sometimes there's too many commits that could be united in one and comments are not so informative. Still, I use this repo as a way to keep track of my record and preserve motivation to solve tasks in Java daily. 
+This was my first big GitHub-repo, so not only was I learning Java by adding one-two files every day after browsing Leetcode or Codewars, but also learтing Git and its features. I use this repo as a way to keep track of my record and preserve motivation to solve tasks in Java daily. 
 
 ![](https://github.com/Linkshegelianer/Linkshegelianer/blob/main/411676.160.gif)
 
