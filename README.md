@@ -1,6 +1,6 @@
 # Practice with Java 
 
-A repository for algorithms and data structures in Java. I've created this repo to save solutions to questions I've found challenging and important for applying for a junior Java-dev role. I comment on some of the lines for my own understanding, but maybe you can also find these solutions useful. 
+I've created this repo to save solutions to questions I've found challenging and important for applying for a junior Java-dev role. I comment on some of the lines for my own understanding, but maybe you can also find these solutions useful. 
 
 I'm not the full author for most of these solutions, but I try to keep them as efficient as possible. Most solutions can be compiled right away to check if they work correctly.
 
