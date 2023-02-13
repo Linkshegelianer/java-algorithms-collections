@@ -8,7 +8,6 @@ This was my first big GitHub-repo, so not only was I learning Java by adding one
 
 ![](https://github.com/Linkshegelianer/Linkshegelianer/blob/main/411676.160.gif)
 
-<hr/>
 
 ## Algorithms
 * **Arrays**
