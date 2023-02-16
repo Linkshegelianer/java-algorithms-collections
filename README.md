@@ -10,14 +10,14 @@ This was my first big GitHub-repo, so not only was I learning Java by adding one
 * **Searches**
   * [Binary search](https://github.com/Linkshegelianer/practice-with-java/blob/main/Solutions-to-small-tasks/BinarySearch.java)
 * **Sorting**
-  * [Quick sort]()  
-  * [Merge sort]() 
-  * [Heapsort]() 
+  * [!Quick sort]()  
+  * [!Merge sort]() 
+  * [!Heapsort]() 
   * [Bubble sort](https://github.com/Linkshegelianer/practice-with-java/blob/main/Solutions-to-small-tasks/BubbleSort.java)
-  * [Insertion sort]()   
-  * [Selection sort]()  
-  * [Bucket sort]() 
-  * [Radix sort]()  
+  * [!Insertion sort]()   
+  * [!Selection sort]()  
+  * [!Bucket sort]() 
+  * [!Radix sort]()  
 * **Math**
   * [Fib numbers](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/FibNumbers.java)
   * [Pascal's triangle](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/PascalsTriangle.java)
