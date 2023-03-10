@@ -42,7 +42,8 @@ This was my first big GitHub-repo, so not only was I learning Java by adding one
   * **Palindrome**
 
 ## Data structures
-* **Linked List**
+* **Lists**
+  * [ArrayList](https://github.com/Linkshegelianer/java-algorithms/blob/main/collections-practice/Lists.java)
 * **Stack**
 * **Queue**
 * **Binary Tree**
