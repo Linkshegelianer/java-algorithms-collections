@@ -4,8 +4,6 @@ I've created this repo to save solutions to questions I've found challenging and
 
 I'm not the full author for most of these solutions, but I try to keep them as efficient as possible. Most solutions can be compiled right away to check if they work correctly.
 
-This was my first big GitHub-repo, so not only was I learning Java by adding one-two files every day after browsing Leetcode or Codewars, but also learтing Git and its features. I use this repo as a way to keep track of my record and preserve motivation to solve tasks in Java daily. 
-
 ## Algorithms
 * **Searches**
   * [Binary search](https://github.com/Linkshegelianer/practice-with-java/blob/main/Solutions-to-small-tasks/BinarySearch.java)
@@ -17,7 +15,8 @@ This was my first big GitHub-repo, so not only was I learning Java by adding one
   * [!Insertion sort]()   
   * [!Selection sort]()  
   * [!Bucket sort]() 
-  * [!Radix sort]()  
+  * [!Radix sort]()
+  * [!Miracle sort]()
 * **Math**
   * [Fib numbers](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/FibNumbers.java)
   * [Pascal's triangle](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/PascalsTriangle.java)
@@ -39,15 +38,26 @@ This was my first big GitHub-repo, so not only was I learning Java by adding one
   * [FizzBuzz](https://github.com/Linkshegelianer/practice-with-java/blob/main/Solutions-to-small-tasks/FizzBuzz.java)
   * [Hamming weight of int](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/HammingWeightOfInt.java)
 * **Strings**
-  * **Palindrome**
+  * [Reverse string]()
 
-## Data structures
-* **Lists**
-  * [ArrayList](https://github.com/Linkshegelianer/java-algorithms/blob/main/collections-practice/Lists.java)
-* **Stack**
-* **Queue**
-* **Binary Tree**
-* **Binary Search Tree**   
-* **Heap**      
-* **Hashing**  
-* **Graph**    
+## Java collections classes
+* **Collection**
+  * **Set**
+    * [HashSet]()
+    * [LinkedHashSet]()
+      * **Sorted Set**
+        * [TreeSet]()
+  * **List**
+    * [ArrayList]()
+    * [LinkedList]()
+    * **Vector**
+      * [Stack]()
+  * **Queue**
+    * [Priority Queue]()
+      * **Deque**
+        * [ArrayDequeue]()
+* **Map**
+  * [HashTable]()
+  * [HashMap]()
+  * [LinkedHashMap]()
+  * [TreeMap]()

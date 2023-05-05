@@ -1,9 +1,11 @@
-/* The method gets a String and an String[] array, which returns new String with Strings listed in the array replaced by "$#%!". 
+package arrays;
+
+/* The method gets a String and an String[] array, which returns new String with Strings listed in the array replaced by "$#%!".
 /* It can be implemented with & without using ArrayUtils class from Apache Commons Lang. 
 */
 import org.apache.commons.lang3.ArrayUtils;
 
-class FindAndReplaceStringsInArray {
+public class FindAndReplaceStringsInArray {
 	
 	public static String makeCensoredWithArrayUtils(String text, String[] stopWords) {
 		var words = text.split(" ");
