@@ -47,7 +47,7 @@ I'm not the full author for most of these solutions, but I try to keep them as e
     * [LinkedHashSet]()
       * **Sorted Set**
         * [TreeSet]()
-  * **List**
+  * **[List]()**
     * [ArrayList]()
     * [LinkedList]()
     * **Vector**

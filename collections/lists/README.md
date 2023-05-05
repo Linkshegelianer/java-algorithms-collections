@@ -1,18 +1,46 @@
-# Коллекции
+# Lists
+**[ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)**
 
-## main/java/exercise/App.java
-
-## Задачи
-
-Скрэббл (от англ. Scrabble — «рыться в поисках чего-либо») — настольная игра, в которой игроки соревнуются в образовании слов из плиток с буквами.
-
-Реализуйте публичный статический метод `scrabble()`, который принимает на вход два параметра: набор символов для составления слова в нижнем регистре (в виде строки) и слово. Метод проверяет, можно ли из переданного набора составить это слово. В результате вызова функция возвращает `true` или `false`.
-
-При проверке учитывается количество символов, нужных для составления слова и не учитывается их регистр (заглавные и строчные символы считаются одинаковыми).
-
+Initialization:
 ```java
-App.scrabble("rkqodlw", "world"); // true
-App.scrabble("ajv", "java"); // false
-App.scrabble("avjafff", "JaVa"); // true
-App.scrabble("", "hexlet"); // false
+List<Type> list1 = new ArrayList<>();
+List<Type> list2 = new ArrayList<>(100); // initial capacity: 100
+List<Type> list3 = new ArrayList<>(list2); // copy another list
 ```
+
+Content:
+```java
+list.add(<Type> value);
+list.add(int index, <Type> value);
+list.addAll(Collection<? extends E> c); // add collection to the end of the list
+list.addAll(int index, Collection<? extends E> c); // add collection starting at the index
+list.get(int index);        
+list.remove(int index);
+list.remove(<Type> value);
+list.removeAll(Collection<?> c); // remove elements from list that are contained in the given collection
+list.clear();
+list.size();
+list.indexOf(Object o);
+list.isEmpty();
+```
+
+Iterator:
+```java
+ArrayList<Type> list = new ArrayList<>();
+Iterator<Type> it = list.iterator();
+while (it.hasNext()) {
+    Type element = it.next();
+    // do something with the element...
+}
+```
+
+Conversion:
+```java
+Object[] array = list.toArray();
+List<Type> newList = Arrays.asList(array);
+```
+
+**[LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html)**
+
+
+**[Stack](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html)**
