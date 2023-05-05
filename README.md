@@ -6,39 +6,39 @@ I'm not the full author for most of these solutions, but I try to keep them as e
 
 ## Algorithms
 * **Searches**
-  * [Binary search](https://github.com/Linkshegelianer/practice-with-java/blob/main/Solutions-to-small-tasks/BinarySearch.java)
+  * [Binary search](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/searches/BinarySearch.java)
 * **Sorting**
   * [!Quick sort]()  
   * [!Merge sort]() 
   * [!Heapsort]() 
-  * [Bubble sort](https://github.com/Linkshegelianer/practice-with-java/blob/main/Solutions-to-small-tasks/BubbleSort.java)
+  * [Bubble sort](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/sorting/BubbleSort.java)
   * [!Insertion sort]()   
   * [!Selection sort]()  
   * [!Bucket sort]() 
   * [!Radix sort]()
   * [!Miracle sort]()
 * **Math**
-  * [Fib numbers](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/FibNumbers.java)
-  * [Pascal's triangle](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/PascalsTriangle.java)
-  * [Power of three](https://github.com/Linkshegelianer/practice-with-java/blob/main/Solutions-to-small-tasks/PowerOfThree.java)
+  * [Fib numbers](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/math/FibNumbers.java)
+  * [Pascal's triangle](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/math/PascalsTriangle.java)
+  * [Power of three](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/math/PowerOfThree.java)
 * **Arrays**
-  * [Swap elements in array](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/SwapElementsInArray.java)
-  * [Caltucale sum in array](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/CaltucaleSumInArray.java)
-  * [Split array into chunks](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/SplitArrayIntoChunks.java)
-  * [Continuous sequence array](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/ContinuousSequenceArray.java)
-  * [Find and replace strings in array](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/FindAndReplaceStringsInArray.java)
-  * [Get same parity in array](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/GetSameParityInArray.java)
+  * [Swap elements in array](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/SwapElementsInArray.java)
+  * [Caltucale sum in array](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/CaltucaleSumInArray.java)
+  * [Split array into chunks](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/SplitArrayIntoChunks.java)
+  * [Continuous sequence array](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/ContinuousSequenceArray.java)
+  * [Find and replace strings in array](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/FindAndReplaceStringsInArray.java)
+  * [Get same parity in array](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/GetSameParityInArray.java)
 * **Matrices**
-  * [Mirror matrix](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/MirrorMatrix.java)
-  * [Multiply matrix](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/MultiplyMatrix.java)
-  * [Rotate Matrix](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/RotateMatrix.java)
+  * [Mirror matrix](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/matrices/MirrorMatrix.java)
+  * [Multiply matrix](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/matrices/MultiplyMatrix.java)
+  * [Rotate Matrix](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/matrices/RotateMatrix.java)
 * **Common interview questions**
-  * [Add digits from int](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/AddDigitsFromInt.java)
-  * [Balanced parens](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/BalancedParens.java)
-  * [FizzBuzz](https://github.com/Linkshegelianer/practice-with-java/blob/main/Solutions-to-small-tasks/FizzBuzz.java)
-  * [Hamming weight of int](https://github.com/Linkshegelianer/java-algorithms/blob/main/Solutions-to-small-tasks/HammingWeightOfInt.java)
+  * [Add digits from int](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/common-interview-questions/AddDigitsFromInt.java)
+  * [Balanced parens](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/common-interview-questions/BalancedParens.java)
+  * [FizzBuzz](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/common-interview-questions/FizzBuzz.java)
+  * [Hamming weight of int](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/common-interview-questions/HammingWeightOfInt.java)
 * **Strings**
-  * [Reverse string]()
+  * [Reverse string](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/strings/ReverseString.java)
 
 ## Java collections classes
 * **Collection**
