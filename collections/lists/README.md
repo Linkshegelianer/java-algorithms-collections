@@ -1,14 +1,14 @@
 # Lists
-**[ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)**
+## [ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
 
-Initialization:
+**Initialization**:
 ```java
 List<Type> list1 = new ArrayList<>();
 List<Type> list2 = new ArrayList<>(100); // initial capacity: 100
 List<Type> list3 = new ArrayList<>(list2); // copy another list
 ```
 
-Content:
+**Content:**
 ```java
 list.add(<Type> value);
 list.add(int index, <Type> value);
@@ -24,7 +24,7 @@ list.indexOf(Object o);
 list.isEmpty();
 ```
 
-Iterator:
+**Iterator:**
 ```java
 ArrayList<Type> list = new ArrayList<>();
 Iterator<Type> it = list.iterator();
@@ -34,13 +34,13 @@ while (it.hasNext()) {
 }
 ```
 
-Conversion:
+**Conversion:**
 ```java
 Object[] array = list.toArray();
 List<Type> newList = Arrays.asList(array);
 ```
 
-**[LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html)**
+## [LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html)
 
 
-**[Stack](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html)**
+## [Stack](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html)
