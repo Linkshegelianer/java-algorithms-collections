@@ -1,6 +1,6 @@
-# Java algorithms
+# Java algorithms and collections
 
-I've created this repo to save solutions to questions I've found challenging and important for applying for a junior Java-dev role. I comment on some of the lines for my own understanding, but maybe you can also find these solutions useful. 
+I've created this repo to save solutions to questions I've found challenging and important for applying for a junior Java-dev role. I comment on some lines for my own understanding, but maybe you can also find these solutions useful. 
 
 I'm not the full author for most of these solutions, but I try to keep them as efficient as possible. Most solutions can be compiled right away to check if they work correctly.
 
@@ -23,7 +23,7 @@ I'm not the full author for most of these solutions, but I try to keep them as e
   * [Power of three](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/math/PowerOfThree.java)
 * **Arrays**
   * [Swap elements in array](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/SwapElementsInArray.java)
-  * [Caltucale sum in array](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/CaltucaleSumInArray.java)
+  * [Calculate sum in array](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/CaltucaleSumInArray.java)
   * [Split array into chunks](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/SplitArrayIntoChunks.java)
   * [Continuous sequence array](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/ContinuousSequenceArray.java)
   * [Find and replace strings in array](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/FindAndReplaceStringsInArray.java)
@@ -39,6 +39,7 @@ I'm not the full author for most of these solutions, but I try to keep them as e
   * [Hamming weight of int](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/common-interview-questions/HammingWeightOfInt.java)
 * **Strings**
   * [Reverse string](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/strings/ReverseString.java)
+  * [Palindrome predicate](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/strings/IsPalindrome.java)
 
 ## Java collections classes
 * **Collection**
@@ -47,7 +48,7 @@ I'm not the full author for most of these solutions, but I try to keep them as e
     * [LinkedHashSet]()
       * **Sorted Set**
         * [TreeSet]()
-  * **[List]()**
+  * **[List](https://github.com/Linkshegelianer/java-algorithms-collections/tree/main/collections/lists)**
     * [ArrayList]()
     * [LinkedList]()
     * **Vector**
