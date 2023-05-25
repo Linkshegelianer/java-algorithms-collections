@@ -1,22 +1,28 @@
 # Java algorithms and collections
 
-I've created this repo to save solutions to questions I've found challenging and important for applying for a junior Java-dev role. I comment on some lines for my own understanding, but maybe you can also find these solutions useful. 
+This repository contains solutions to questions I've found challenging and important for applying for a junior Java-dev role. I comment on some lines for my own understanding, but maybe you can also find these code snippets useful. 
 
 I'm not the full author for most of these solutions, but I try to keep them as efficient as possible. Most solutions can be compiled right away to check if they work correctly.
 
 ## Algorithms
 * **Searches**
+  * [Linear search](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/searches/LinearSearch.java) 
   * [Binary search](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/searches/BinarySearch.java)
+  * [Breadth First Search](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/searches/BreadthFirstSearch.java)
+  * [Depth First Search](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/searches/DepthFirsthSearch.java)
+  * [Fibonacci search](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/searches/FibonacciSearch.java)
+  * [Exponential search](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/searches/ExponentialSearch.java)
+  * [Jump search](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/searches/JumpSearch.java)
 * **Sorting**
-  * [!Quick sort]()  
-  * [!Merge sort]() 
-  * [!Heapsort]() 
+  * [Quick sort](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/sorting/QuickSort.java)  
+  * [Merge sort](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/sorting/MergeSort.java) 
+  * [Heap sort](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/sorting/HeapSort.java) 
   * [Bubble sort](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/sorting/BubbleSort.java)
-  * [!Insertion sort]()   
-  * [!Selection sort]()  
-  * [!Bucket sort]() 
-  * [!Radix sort]()
-  * [!Miracle sort]()
+  * [Insertion sort](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/sorting/InsertionSort.java)   
+  * [Selection sort](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/sorting/SelectionSort.java)  
+  * [Bucket sort](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/sorting/BucketSort.java) 
+  * [Radix sort](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/sorting/RadixSort.java)
+  * [Miracle sort](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/sorting/MiracleSort.java)
 * **Math**
   * [Fib numbers](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/math/FibNumbers.java)
   * [Pascal's triangle](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/math/PascalsTriangle.java)
