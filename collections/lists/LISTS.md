@@ -34,10 +34,10 @@ A linked list is a chain of cells called nodes in random memory addresses. Each 
 **Difficulty comparison between ArrayList and LinkedList**  
 | Operation | ArrayList | LinkedList |   
 | ---- |------| ------|
-| Access by index |   `O(1)` |   `O(n)` |
-| Search by value |   `O(n)` |   `O(n)` |
-| Insert element |   `O(n)` |   `O(1)` |
-| Remove element |   `O(n)` |   `O(1)` |
+| Access by index | `O(1)` |   `O(n)` |
+| Search by value | `O(n)` |   `O(n)` |
+| Insert element | `O(n)` |   `O(1)` |
+| Remove element | `O(n)` |   `O(1)` |
 
 **ArrayList**: better at operations involving accessing elements by index or iterating through the collection.
 **LinkedList**: better at insertion and deletion operations, especially at the beginning or end of the list.

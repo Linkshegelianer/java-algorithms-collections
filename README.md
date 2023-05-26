@@ -1,6 +1,6 @@
 # Java algorithms and collections
 
-This repo contains a custom collection of data for technical interview for junior java developer role. 
+Custom collection of data for technical interview for junior java developer role. 
 
 ## Algorithms
 * **Searches**
@@ -66,7 +66,7 @@ This repo contains a custom collection of data for technical interview for junio
         * [TreeSet]()
   * **List**
     * [ArrayList](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/lists/LISTS.md)
-    * [LinkedList](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/lists/LISTS.md)
+    * [LinkedList](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/lists/LISTS.md#linkedlist)
     * **Vector**
       * Stack
   * **Queue**
@@ -74,10 +74,10 @@ This repo contains a custom collection of data for technical interview for junio
       * **Deque**
         * [ArrayDequeue]()
 * **Map**
-  * [HashTable]()
-  * [HashMap]()
-  * [LinkedHashMap]()
-  * [TreeMap]()
+  * [HashTable](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/lists/MAPS.md)
+  * [HashMap](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/lists/MAPS.md)
+  * [LinkedHashMap](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/lists/MAPS.md)
+  * [TreeMap](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/lists/MAPS.md)
 
 ### Definitions
 | Term | Definition | Examples |  
