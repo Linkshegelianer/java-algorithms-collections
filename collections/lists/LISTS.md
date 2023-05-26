@@ -38,16 +38,21 @@ A linked list is a chain of cells called nodes in random memory addresses. Each 
 | Search by value | `O(n)` | `O(n)` |
 | Insert element | `O(n)` | `O(1)` |
 | Remove element | `O(n)` | `O(1)` |
+
 **ArrayList**: better at operations involving accessing elements by index or iterating through the collection.
 **LinkedList**: better at insertion and deletion operations, especially at the beginning or end of the list.
 
+<hr>
+
 In addition to using LinkedList as a List, it can also be used as a Queue or Stack, imposing certain rules on adding and removing items.
 * **Stack** is an abstract data structure obeying LIFO (Last in First Out) rules.
+
   ```Queue<String> queue = new LinkedList<>();```
   Push: ```add()``` - appends the specified element to the end of this list.
   Pop: ```removeLast()``` - removes and returns the last element from this list
 
 * **Queue** is an abstract data structure obeying FIFO (first in first out) rules.
+
   ```Deque<String> stack = new LinkedList<>();```
   Enqueue: ```add()``` - appends the specified element to the end of this list.
   Dequeue: ```remove()``` - retrieves and removes the head (first element) of this list
