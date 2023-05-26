@@ -1,8 +1,6 @@
 # Java algorithms and collections
 
-This repository contains solutions to questions I've found challenging and important for applying for a junior Java-dev role. I comment on some lines for my own understanding, but maybe you can also find these code snippets useful. 
-
-I'm not the full author for most of these solutions, but I try to keep them as efficient as possible. Most solutions can be compiled right away to check if they work correctly.
+This repo contains a custom collection of data for technical interview for junior java developer role. 
 
 ## Algorithms
 * **Searches**
@@ -47,6 +45,18 @@ I'm not the full author for most of these solutions, but I try to keep them as e
   * [Reverse string](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/strings/ReverseString.java)
   * [Palindrome predicate](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/strings/IsPalindrome.java)
 
+
+### Big-O Complexity Table
+| Type | Name | Explanation | Status | Example |
+| ---- |------| ------|  ------| ------| 
+| `O(1)` | Constant Time | Algorithm is executed the same number of times each time, regardless of the size of the input |  Excellent | Search in a hash table by key |
+| `O(log n)` | Logarithm Time | The execution time increases very slowly compared to the increase in the size of the input data | Excellent | Binary Search |
+| `O(n)` | Linear Time | The execution time is linearly proportional to the size of the input data | Good | Brute Force Search |
+| `O(n log n)` | Quasilinear Time | As the input size increases, the number of divisions required to solve the problem increases slowly due to the logarithmic growth | Bad | Merge Sort, Heap Sort |
+| `O(n^2)` | Quadratic Time | Involves nested iterations or comparisons for each element | Horrible | Selection Sort |
+| `O(2^n)` | Exponential Time | Involves exhaustive search or enumeration of all possible combinations of the input, execution time increases exponentially | Horrible | TSP (dynamic programming)
+| `O(n!)` | Factorial Time | Involves exhaustive search or enumeration of all possible combinations of the input, execution time increases factorially | Horrible | TSP (brute force)
+
 ## Java collections classes
 * **Collection**
   * **Set**
@@ -68,3 +78,9 @@ I'm not the full author for most of these solutions, but I try to keep them as e
   * [HashMap]()
   * [LinkedHashMap]()
   * [TreeMap]()
+
+### Definitions
+| Term | Definition | Examples |  
+| ---- |------| ------| 
+| Abstract Data Type (ADT) | Represents a high-level description of a data type, focusing on its behavior and operations rather than the specific implementation details | stack, queue, dictionary, sequence, set |  
+| Data Structure | Technique or strategy for implementing a particular data type, organizing and storing data in a specific way to facilitate efficient operations | array, linked list, hash table, trees (binary search tree, heap, red/black trees |  
