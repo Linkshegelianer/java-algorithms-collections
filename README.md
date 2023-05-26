@@ -65,8 +65,8 @@ This repo contains a custom collection of data for technical interview for junio
       * **Sorted Set**
         * [TreeSet]()
   * **List**
-    * [ArrayList](https://github.com/Linkshegelianer/java-algorithms-collections/tree/main/collections/lists)
-    * [LinkedList](https://github.com/Linkshegelianer/java-algorithms-collections/tree/main/collections/lists)
+    * [ArrayList](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/lists/LISTS.md)
+    * [LinkedList](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/lists/LISTS.md)
     * **Vector**
       * Stack
   * **Queue**
