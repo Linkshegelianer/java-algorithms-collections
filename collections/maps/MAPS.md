@@ -20,7 +20,7 @@ A hash table is a data structure implementing an associative array interface tha
 
 **HashMap structure**:
 
-* Each node (object of the Node class) in HashMap contains hashCode (int), key, value and pointer to the next ```Node <K, V> next```
+* Each node (object of the Node class) in HashMap contains hashCode (int), key, value and pointer to the next ```Node <K, V>```
 * The procedure for adding an element to a HashMap is described [here (RU)](https://habr.com/ru/articles/128017/)
 * A **collision** is a situation when a node has the same hash code as the existing one:
     *  If the keys of the nodes are equal through ```equals()```, the value will be overwritten.
@@ -68,7 +68,7 @@ Elements will be sorted thanks to RB-tree features.
 
 ## [HashTable](https://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html)
 
-Provides similar functionality to HashTable but with some important differences:
+Provides similar functionality to `HashMap` but with some important differences:
 
 |                       | HashMap                         | HashTable | 
 |-----------------------|---------------------------------|-----------| 
