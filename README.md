@@ -74,10 +74,10 @@ Custom collection of data for technical interview for junior java developer role
       * **Deque**
         * ArrayDequeue
 * **Map**
-  * [HashTable](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/lists/MAPS.md#hashtable)
-  * [HashMap](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/lists/MAPS.md#hashmap)
-  * [LinkedHashMap](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/lists/MAPS.md#linkedhashmap)
-  * [TreeMap](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/lists/MAPS.md#treemap)
+  * [HashTable](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/maps/MAPS.md#hashtable)
+  * [HashMap](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/maps/MAPS.md#hashmap)
+  * [LinkedHashMap](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/maps/MAPS.md#linkedhashmap)
+  * [TreeMap](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/maps/MAPS.md#treemap)
 
 ### Definitions
 | Term | Definition | Examples |  
