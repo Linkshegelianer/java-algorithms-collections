@@ -2,7 +2,7 @@
 
 In the Collections framework hierarchy, Map interface, which is an implementation of an **associative array**, is set aside since it does not inherit from either Collection or Iterable interfaces.
 
-|  | `HashMap` |  `LinkedHashMap` | `TreeMap`                                | `HashTable` |
+|  | `HashMap` |  `LinkedHashMap` | `TreeMap`  | `HashTable` |
 | ---- |------|  ------|------------------------------------------|  ------| 
 | Implementation | Array of nodes inside bucket | Doubly-linked list of nodes inside bucket  | Reb-Black Tree                           | Array of linked lists inside bucket |  
 | Time complexity | `O(1)` | `O(1)` | `O(log(n))`                              | `O(1)` |

@@ -8,10 +8,10 @@ Operations on sets:
 * **Difference of sets**: A − B = A ∩ B’, set which consists of elements present in A but not in B.
 * **Symmetric difference of Sets**: (A – B) ∪ (B – A) = A △ B, set of all those elements which belongs either to A or to B but not to both.
 
-|  | `HashSet` | `LinkedHashSet` | `TreeSet` |  
-|----|----|-----|----|-----|
+|  | `HashSet` | `LinkedHashSet` | `TreeSet` |
+|----|----|-----|----|
 | Implementation | HashMap | LinkedHashMap | TreeMap |
-| Time complexity | `O(1)`* | `O(1)`* | `O(log(n))` |   
+| Time complexity | `O(1)`* | `O(1)`* | `O(log(n))` |  
 | Interfaces | Set | Set  | SortedSet -> NavigableSet -> Set |
 | Iteration Order | Not guaranteed | Insertion order | Sorted according to the natural ordering |   
 | Null values/keys | Allowed | Maximum one null element | Prohibited |
