@@ -5,8 +5,8 @@ In the Collections framework hierarchy, Map interface, which is an implementatio
 |  | `HashMap` |  `LinkedHashMap` | `TreeMap`                                | `HashTable` |
 | ---- |------|  ------|------------------------------------------|  ------| 
 | Implementation | Array of nodes inside bucket | Doubly-linked list of nodes inside bucket  | Reb-Black Tree                           | Array of linked lists inside bucket |  
-| Time complexity | `O(1)` | `O(1)` | `O(lon(n))`                              | `O(1)` |
-| Interfaces | Map | Map | NavigableMap -> SortedMap -> Map  | Map |
+| Time complexity | `O(1)` | `O(1)` | `O(log(n))`                              | `O(1)` |
+| Interfaces | Map | Map | SortedMap -> NavigableMap -> Map         | Map |
 | Iteration Order | Not guaranteed | Insertion order  | Sorted according to the natural ordering | Not guaranteed |
 | Null values/keys | Allowed | Allowed  | Only values                              | Prohibited |
 | Synchronization | Not synchronized by default | Not synchronized by default | Not synchronized by default              | Synchronized |

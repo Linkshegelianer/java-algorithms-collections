@@ -60,10 +60,11 @@ Custom collection of data for technical interview for junior java developer role
 ## Java collections classes
 * **Collection**
   * **Set**
-    * HashSet
-    * LinkedHashSet
-      * **Sorted Set**
-        * TreeSet
+    * [HashSet](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/sets/SETS.md#hashset)
+    * [LinkedHashSet](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/sets/SETS.md#linkedhashset)
+      * **SortedSet**
+      * **NavigableSet**
+        * [TreeSet](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/sets/SETS.md#treeset)
   * **List**
     * [ArrayList](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/lists/LISTS.md)
     * [LinkedList](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/lists/LISTS.md#linkedlist)
@@ -77,7 +78,9 @@ Custom collection of data for technical interview for junior java developer role
   * [HashTable](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/maps/MAPS.md#hashtable)
   * [HashMap](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/maps/MAPS.md#hashmap)
   * [LinkedHashMap](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/maps/MAPS.md#linkedhashmap)
-  * [TreeMap](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/maps/MAPS.md#treemap)
+    * **SortedMap**
+    * **NavigableMap**
+      * [TreeMap](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/collections/maps/MAPS.md#treemap)
 
 ### Definitions
 | Term | Definition | Examples |  
