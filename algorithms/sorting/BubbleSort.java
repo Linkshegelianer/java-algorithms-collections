@@ -1,3 +1,7 @@
+/*
+Bubble sort is the simplest sorting algorithm which swaps the adjacent elements if they are in the wrong order, creating 'bubbles' 
+ */
+
 import java.util.Arrays; // for using Arrays.toString() method
 
 public class BubbleSort {
