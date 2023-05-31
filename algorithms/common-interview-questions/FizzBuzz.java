@@ -6,7 +6,8 @@ public class FizzBuzz {
 			var buzz = i % 5 == 0;
 			var fizzPart = fizz ? "Fizz" : ""; // write "Fizz" if int is divisible by 3
 			var buzzPart = buzz ? "Buzz" : ""; // write "Buzz" if int is divisible by 5
-			System.out.println(fizz || buzz ? fizzPart + buzzPart : i); // write "FizzBuzz" without creating a third variable if both fizz & buzz are true
+			// write "FizzBuzz" without creating a third variable if both fizz & buzz are true
+			System.out.println(fizz || buzz ? fizzPart + buzzPart : i);
 		}
 	return "done!";
 	}

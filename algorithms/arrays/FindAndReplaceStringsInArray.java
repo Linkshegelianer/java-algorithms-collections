@@ -1,7 +1,6 @@
-package arrays;
-
-/* The method gets a String and an String[] array, which returns new String with Strings listed in the array replaced by "$#%!".
-/* It can be implemented with & without using ArrayUtils class from Apache Commons Lang. 
+/* The method gets a String and an String[] array,
+which returns new String with Strings listed in the array replaced by "$#%!".
+It can be implemented with & without using ArrayUtils class from Apache Commons Lang.
 */
 import org.apache.commons.lang3.ArrayUtils;
 
@@ -14,7 +13,7 @@ public class FindAndReplaceStringsInArray {
 		
 		for (var i = 0; i < wordsCount; i++) {
 			var word = words[i];
-			var newWord = ArrayUtils.contains(stopWords, word) ? "$#%!" : word; // checking if the stopWords[] contains the current word 
+			var newWord = ArrayUtils.contains(stopWords, word) ? "$#%!" : word;
 			censoredWords[i] = newWord;
 		}
 		return String.join(" ", censoredWords); // reassemble the String
@@ -24,8 +23,9 @@ public class FindAndReplaceStringsInArray {
 		var words = text.split(" ");
 		var wordsCount = words.length;
 		var censoredWords = new String[wordsCount];
-		
-        for (var i = 0; i < wordsCount; i++) { // this version of the method uses a nested for loop to check if the current word from the input text is in the array
+
+		// this version uses a nested for loop to check if the current word from the input text is in the array
+        for (var i = 0; i < wordsCount; i++) {
             var word = words[i];
             boolean found = false;
             for (int j = 0; j < stopWords.length; j++) {

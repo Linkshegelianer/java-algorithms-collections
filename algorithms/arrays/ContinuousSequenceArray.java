@@ -5,10 +5,11 @@ public class ContinuousSequenceArray {
 			return false;
 		}
 		
-		int min = input[0]; 
+		int min = input[0];
+		// the loop will continue until every element is checked, but if the sequence is wrong it will stop
 		for (var i = 1; i <= input.length - 1; i++) {
 			if (input[i] == min + 1) {
-				min = input[i]; // the loop will continue until every element is checked, but if the sequence is wrong it will stop and return 'false' statement
+				min = input[i];
 			} else {
 				return false;
 			}

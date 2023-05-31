@@ -1,5 +1,6 @@
 /*
-Insertion sort divides an array into sorted (left) and unsorted (right) parts, and inserts elements to the sortet part according to its position comparing them to the previous elements in the sorted part.
+Insertion sort divides an array into sorted (left) and unsorted (right) parts, and inserts elements to the sortet part
+according to its position comparing them to the previous elements in the sorted part.
 Best Time Complexity: O(n)
 Average Time Complexity: O(n^2)
 Worst Time Complexity: O(n^2)

@@ -5,9 +5,10 @@
 */
 public class BalancedParens {
 	public static boolean isBalanced(String str) {
-		int count = 0; 
+		int count = 0;
 
-		for (char ch : str.toCharArray()) { // turning str into an array of chars and using for-each to bypass the elements directly
+		// turning str into an array of chars and using for-each to bypass the elements directly
+		for (char ch : str.toCharArray()) {
 			if (ch == '(') {
 				count++;
 			} else if (ch == ')') {

@@ -1,5 +1,6 @@
 /*
-Selection sort chooses one min element from the unsorted part of the array and swaps it with the first element of the unsorted part, gradually building a sorted part from left to right.
+Selection sort chooses one min element from the unsorted part of the array and swaps it with the first element
+of the unsorted part, gradually building a sorted part from left to right.
 Best Time Complexity: O(n^2)
 Average Time Complexity: O(n^2)
 Worst Time Complexity: O(n^2)
@@ -22,7 +23,7 @@ public class SelectionSort {
 
             int temp = items[min];
             items[min] = items[i]; // swap the min element with the first element of the unsorted part
-            items[i] = temp; // swap the current element with the min element, placing the min in its correct sorted position
+            items[i] = temp; // swap the current element with the min, placing min in its correct sorted position
         }
         return items;
     }

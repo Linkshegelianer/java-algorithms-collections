@@ -4,15 +4,17 @@ public class FibNumbers {
 		int fib[] = new int[number + 2]; 
 
 		fib[0] = 0; fib[1] = 1; // the first two numbers in Fibonacci sequence as a special case
-		
-		for (int i = 2; i <= number; i++) { // calculate each number by adding the previous two and assign the result to the current element of the array
+
+		// calculate each number by adding the previous two and assign the result to the current element of the array
+		for (int i = 2; i <= number; i++) {
 			fib[i] = fib[i - 1] + fib[i - 2];
 		}
 
 		return fib[number];
 	}
 
-	public static int findFibWithStoringNumbers(int number) { // use dynamic programming to store & re-use the already calculated Fibonacci numbers
+	public static int findFibWithStoringNumbers(int number) {
+		// use dynamic programming to store & re-use the already calculated Fibonacci numbers
     		if (number == 0) return 0; // special case for 0 & 1
    		if (number == 1) return 1;
 
@@ -21,7 +23,8 @@ public class FibNumbers {
     		fib[1] = 1;
 
     		for (int i = 2; i <= number; i++) {
-        		fib[i] = fib[i - 1] + fib[i - 2]; // calculate each number by adding the previous two, which are stored in the array
+				// calculate each number by adding the previous two, which are stored in the array
+        		fib[i] = fib[i - 1] + fib[i - 2];
     		}
 
     		return fib[number];

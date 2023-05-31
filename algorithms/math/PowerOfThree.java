@@ -1,7 +1,7 @@
 public class PowerOfThree {
 	public static boolean isPowerOfThree(int number) {
 		var current = 1; // initialize the counter, start with 1 since we're multiplying numbers here
-		while (current <= number) { // using while loop so that the statement will run until the condition is proved false
+		while (current <= number) {
 			if (current == number) {
 				return true;
 			}
