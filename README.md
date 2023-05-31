@@ -11,7 +11,7 @@ Custom collection of data for technical interview for junior java developer role
   * [Fibonacci search](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/searches/FibonacciSearch.java)
   * [Exponential search](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/searches/ExponentialSearch.java)
   * [Jump search](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/searches/JumpSearch.java)
-* **Sorting**
+* **[Sorting](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/sorting/SORTING.md)**
   * [Quick sort](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/sorting/QuickSort.java)  
   * [Merge sort](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/sorting/MergeSort.java) 
   * [Heap sort](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/sorting/HeapSort.java) 
@@ -51,8 +51,9 @@ Custom collection of data for technical interview for junior java developer role
 * **Space Complexity**: maximum amount of auxiliary memory that an algorithm needs to allocate or use during its execution as a function of the input size.
   * **Auxiliary Space** is the extra space or temporary space used by an algorithm.
 
-`n` in Time Complexity -- the number of elements in the input.
-`n` in Space Complexity -- input size in units of bits needed to represent the input.
+`n` in Time Complexity — the number of elements in the input.
+
+`n` in Space Complexity — input size in units of bits needed to represent the input.
 
 ### Big-O Time Complexity Table
 | Type | Name | Explanation | Status | Example |  

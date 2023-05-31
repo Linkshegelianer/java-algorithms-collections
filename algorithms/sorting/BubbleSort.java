@@ -1,16 +1,20 @@
 /*
-Bubble sort is the simplest sorting algorithm which swaps the adjacent elements if they are in the wrong order, creating 'bubbles' 
+Bubble sort is the simplest sorting algorithm which swaps the adjacent elements if they are in the wrong order, so elements 'bubble' their way to their correct position in the list.
+Best Time Complexity: O(n)
+Average Time Complexity: O(n^2)
+Worst Time Complexity: O(n^2)
+Space Complexity: O(1)
  */
 
-import java.util.Arrays; // for using Arrays.toString() method
+import java.util.Arrays;
 
 public class BubbleSort {
 	public static int[] bubbleSort(int[] items) {
-		var stepsCount = items.length - 1;
+		var n = items.length - 1; // for each iteration, at least one element falls into place, so the total number <= n-1
 		boolean swapped; // initialized to 'false' as a default value
 		do { // the loop will continue as long as swapped is true
 			swapped = false;
-			for (var i = 0; i < stepsCount; i++) { 
+			for (var i = 0; i < n; i++) { 
 				if (items[i] > items[i + 1]) { // if the current element is larger than the next element, they are swapped through temp variable
 					var temp = items[i];
 					items[i] = items[i + 1];
@@ -18,13 +22,13 @@ public class BubbleSort {
 					swapped = true;
 				}
 			}
-			stepsCount--; // the last element in the array is guaranteed to be the largest after each iteration, so it doesn't need to be compared again
+			n--; // the last element in the array is guaranteed to be the largest after each iteration, so it doesn't need to be compared again
 		} while (swapped);
 		return items;
 	}
 
 	public static void main(String[] args) {
 		int[] example = {2, 5, 3, 1, 4};
-		System.out.println(Arrays.toString(bubbleSort(example))); // must return sorted array
+		System.out.println(Arrays.toString(bubbleSort(example)));
 	}
 }
