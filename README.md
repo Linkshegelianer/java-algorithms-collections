@@ -41,6 +41,7 @@ Custom collection of data for technical interview for junior java developer role
   * [Balanced parens](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/common-interview-questions/BalancedParens.java)
   * [FizzBuzz](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/common-interview-questions/FizzBuzz.java)
   * [Hamming weight of int](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/common-interview-questions/HammingWeightOfInt.java)
+  * [Reverse Linked List](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/common-interview-questions/ReverseLinkedList.java)
 * **Strings**
   * [Reverse string](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/strings/ReverseString.java)
   * [Palindrome predicate](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/strings/IsPalindrome.java)
