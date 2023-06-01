@@ -1,36 +1,37 @@
-/*
-Bubble sort is the simplest sorting algorithm which swaps the adjacent elements if they are in the wrong order,
-so elements 'bubble' their way to their correct position in the list.
-Best Time Complexity: O(n)
-Average Time Complexity: O(n^2)
-Worst Time Complexity: O(n^2)
-Space Complexity: O(1)
- */
-
 import java.util.Arrays;
 
-public class BubbleSort {
-	public static int[] bubbleSort(int[] items) {
-		int n = items.length - 1; // for each iteration, at least one element falls into place, the total number <= n-1
-		boolean swapped; // initialized to 'false' as a default value
-		do { // the loop will continue as long as swapped is true
-			swapped = false;
-			for (int i = 0; i < n; i++) {
-				// if the current element is larger than the next element, they are swapped through temp variable
-				if (items[i] > items[i + 1]) {
-					int temp = items[i];
-					items[i] = items[i + 1];
-					items[i + 1] = temp;
-					swapped = true;
-				}
-			}
-			n--;
-		} while (swapped);
-		return items;
-	}
+public class BubbleSort<T extends Comparable<T>> { // so we can use compareTo()
 
-	public static void main(String[] args) {
-		int[] example = {2, 5, 3, 1, 4};
-		System.out.println(Arrays.toString(bubbleSort(example)));
-	}
+    private final T[] items;
+
+    public BubbleSort(T[] items) {
+        this.items = items;
+    }
+
+    public void sort() {
+        for (int i = 0; i < items.length - 1; i++) {
+            boolean didSwap = false;
+            for (int j = 0; j < items.length - i - 1; j++) { // -i so don't need to iterate through already sorted items
+                if (items[j].compareTo(items[j + 1]) > 0) {
+                    // sort in ascending order
+                    T temp = items[j];
+                    items[j] = items[j + 1];
+                    items[j + 1] = temp;
+                    didSwap = true;
+                }
+            }
+            if (!didSwap) { // if there were no swapping, the iteration is stopped to save resources
+                break;
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Integer[] exampleInt = {2, 5, 3, 1, 4};
+        String[] exampleStr = {"Bardzo", "Mala", "Zaba", "Je", "Sobie", "Kebaba"};
+        System.out.println(Arrays.toString(exampleInt) + " | " + Arrays.toString(exampleStr));
+        new BubbleSort<>(exampleInt).sort();
+        new BubbleSort<>(exampleStr).sort();
+        System.out.println(Arrays.toString(exampleInt) + " | " + Arrays.toString(exampleStr));
+    }
 }

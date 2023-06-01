@@ -7,29 +7,48 @@ Worst Time Complexity: O(n^2)
 Space Complexity: O(1)
  */
 import java.util.Arrays;
-public class SelectionSort {
+import java.util.stream.IntStream;
+public class SelectionSort<T extends Comparable<T>> {
 
-    public static int[] selectionSort(int[] items) {
-        int n = items.length - 1;
+    private final T[] items;
 
-        for (int i = 0; i < n; i++) {
-            int min = i; // position to hold min element in the unsorted part
+    public SelectionSort(T[] items) { this.items = items; }
 
-            for (int j = i + 1; j < n; j++) { // iterate through the unsorted part
-                if (items[j] < items[min]) {
-                    min = j; // place new element to the min index
+    public void sortStream() {
+        IntStream.range(0, items.length - 1).forEach(i ->
+                IntStream.range(i, items.length)
+                        .reduce((left, right) ->
+                                items[left].compareTo(items[right]) < 0 ? left : right)
+                        .ifPresent(minIndex -> {
+                            T temp = items[i];
+                            items[i] = items[minIndex];
+                            items[minIndex] = temp;
+                        })
+        );
+    }
+
+    public void sortSimple() {
+        for (int i = 0; i < items.length - 1; i++) {
+            int minIndex = i;
+            for (int j = i + 1; j < items.length; j++) {
+                if (items[j].compareTo(items[minIndex]) < 0) {
+                    minIndex = j; // find index with min value
                 }
             }
-
-            int temp = items[min];
-            items[min] = items[i]; // swap the min element with the first element of the unsorted part
-            items[i] = temp; // swap the current element with the min, placing min in its correct sorted position
+            if (minIndex != i) {
+                T temp = items[i];
+                items[i] = items[minIndex];
+                items[minIndex] = temp;
+            }
         }
-        return items;
     }
 
     public static void main(String[] args) {
-        int[] example = {2, 5, 3, 1, 4};
-        System.out.println(Arrays.toString(selectionSort(example)));
+        Integer[] exampleInt = {2, 5, 3, 1, 4};
+        String[] exampleStr = {"Bardzo", "Mala", "Zaba", "Je", "Sobie", "Kebaba"};
+        System.out.println(Arrays.toString(exampleInt) + " | " + Arrays.toString(exampleStr));
+        new SelectionSort<>(exampleInt).sortStream();
+        new SelectionSort<>(exampleStr).sortSimple();
+        System.out.println(Arrays.toString(exampleInt) + " | " + Arrays.toString(exampleStr));
     }
 }
