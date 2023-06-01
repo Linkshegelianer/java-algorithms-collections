@@ -16,7 +16,9 @@ In the Collections framework hierarchy, Map interface, which is an implementatio
 
 `HashMap` is a specific implementation of the Map collection based on a data structure called a hash table.
 
-A hash table is a data structure implementing an associative array interface that provides fast insertion and deletion of elements.
+* **Hash table** is a data structure implementing an associative array interface that provides fast insertion and deletion of elements.
+
+* **Hashing** is a process of transforming input data into a fixed-size output for data integrity verification or quick data retrieval.
 
 **HashMap structure**:
 
@@ -36,6 +38,8 @@ A hash table is a data structure implementing an associative array interface tha
 *Assuming a good hash function and a well-distributed set of keys. In the worst case, when there are many collisions, the time complexity can degrade to O(n).
 
 **Requires iterating through all the entries to find a matching value.
+
+
 
 <hr>  
 
