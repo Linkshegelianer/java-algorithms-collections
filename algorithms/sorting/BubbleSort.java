@@ -28,7 +28,7 @@ public class BubbleSort<T extends Comparable<T>> { // so we can use compareTo()
 
     public static void main(String[] args) {
         Integer[] exampleInt = {2, 5, 3, 1, 4};
-        String[] exampleStr = {"Bardzo", "Mala", "Zaba", "Je", "Sobie", "Kebaba"};
+        String[] exampleStr = {"B", "A", "C", "D", "F", "E"};
         System.out.println(Arrays.toString(exampleInt) + " | " + Arrays.toString(exampleStr));
         new BubbleSort<>(exampleInt).sort();
         new BubbleSort<>(exampleStr).sort();

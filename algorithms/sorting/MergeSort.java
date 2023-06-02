@@ -9,55 +9,62 @@ Space Complexity: O(n)
  */
 
 import java.util.Arrays;
-public class MergeSort {
+@SuppressWarnings("unchecked")
+public class MergeSort<T extends Comparable<T>> {
 
-    public static int[] mergeSort(int[] items) {
-        if (items.length <= 1) { // base case for recursive part
-            return items;
-        }
+    private final T[] items;
 
-        int mid = items.length / 2;
-        int[] left = Arrays.copyOfRange(items, 0, mid); // left subarray
-        int[] right = Arrays.copyOfRange(items, mid, items.length); // right subarray
-
-        left = mergeSort(left); // recursively divide subarrays
-        right = mergeSort(right);
-
-        int[] merged = new int[left.length + right.length];
-        // variables to keep track of the current positions in the subarrays and result
-        int leftIdx = 0;
-        int rightIdx = 0;
-        int mergedIdx = 0;
-
-        while (leftIdx < left.length && rightIdx < right.length) {
-            if (left[leftIdx] <= right[rightIdx]) {
-            // the smallest element is added to result merged[]
-                merged[mergedIdx] = left[leftIdx];
-                leftIdx++;
-            } else {
-                merged[mergedIdx] = right[rightIdx];
-                rightIdx++;
-            }
-            mergedIdx++;
-        }
-
-        // add remaining elements in the left[] and right[] subarrays
-        while (leftIdx < left.length) {
-            merged[mergedIdx] = left[leftIdx];
-            leftIdx++;
-            mergedIdx++;
-        }
-
-        while (rightIdx < right.length) {
-            merged[mergedIdx] = right[rightIdx];
-            rightIdx++;
-            mergedIdx++;
-        }
-
-        return merged;
+    public MergeSort(T[] items) {
+        this.items = items;
     }
+
+    public void mergeSort(int low, int high) {
+        if (low >= high) {
+            return;
+        }
+        int middle = (low + high) / 2;
+        mergeSort(low, middle);
+        mergeSort(middle + 1, high);
+        merge(low, middle, high);
+    }
+
+    public void sort() {
+        mergeSort(0, items.length - 1);
+    }
+
+    private void merge(int low, int middle, int high) {
+
+        T[] leftArray = (T[]) new Comparable[middle - low + 1];
+        T[] rightArray = (T[]) new Comparable[high - middle];
+
+        System.arraycopy(items, low, leftArray, 0, leftArray.length);
+        System.arraycopy(items, middle + 1, rightArray, 0, rightArray.length);
+
+        int leftSubArrCounter = 0;
+        int rightSubArrCounter = 0;
+        int arrCounter = low;
+        while (leftSubArrCounter < leftArray.length && rightSubArrCounter < rightArray.length) {
+            items[arrCounter++] = leftArray[leftSubArrCounter].compareTo(rightArray[rightSubArrCounter]) <= 0
+                    ? leftArray[leftSubArrCounter++]
+                    : rightArray[rightSubArrCounter++];
+        }
+
+        while (leftSubArrCounter < leftArray.length) {
+            items[arrCounter++] = leftArray[leftSubArrCounter++];
+        }
+
+        while (rightSubArrCounter < rightArray.length) {
+            items[arrCounter++] = rightArray[rightSubArrCounter++];
+        }
+
+    }
+
     public static void main(String[] args) {
-        int[] example = {2, 5, 3, 1, 4};
-        System.out.println(Arrays.toString(mergeSort(example)));
+        Integer[] exampleInt = {2, 5, 3, 1, 4};
+        String[] exampleStr = {"B", "A", "C", "D", "F", "E"};
+        System.out.println(Arrays.toString(exampleInt) + " | " + Arrays.toString(exampleStr));
+        new MergeSort<>(exampleInt).sort();
+        new MergeSort<>(exampleStr).sort();
+        System.out.println(Arrays.toString(exampleInt) + " | " + Arrays.toString(exampleStr));
     }
 }

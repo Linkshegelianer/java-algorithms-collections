@@ -9,50 +9,57 @@ Space Complexity: O(log n)
  */
 
 import java.util.Arrays;
-public class QuickSort {
+public class QuickSort<T extends Comparable<T>> {
 
-    public static int[] quickSort(int[] items, int low, int high) {
-        if (items.length <= 1) { // base case for recursive part
-            return items;
+    private final T[] items;
+
+    public QuickSort(T[] items) {
+        this.items = items;
+    }
+
+    public void sort() {
+        qucksort(0, items.length - 1);
+    }
+
+    private void qucksort(int low, int high) {
+        if (low >= high) {
+            return;
         }
 
-        int mid = low + (high - low) / 2;
-        int pivot = items[mid];
+        int pivot = partition(low, high);
+        qucksort(low, pivot - 1);
+        qucksort(pivot + 1, high);
+    }
 
-        int i = low, j = high; //  two pointers that will traverse the array from opposite directions
-        while (i <= j) {
-            while (items[i] < pivot) {
-                i++;
+    private int partition(int low, int high) {
+        int pivotIndex = (low + high) / 2;
+        swap(pivotIndex, high);
+        int pivotIndexCounter = low;
+        for (int i = low; i < high; i++) {
+            if (items[i].compareTo(items[high]) <= 0) {
+                swap(pivotIndexCounter, i);
+                pivotIndexCounter++;
             }
-
-            while (items[j] > pivot) {
-                j--;
-            }
-
-            // items[i] is greater than pivot and items[j] is less than pivot, so their positions should be swapped
-            if (i <= j) {
-                int temp = items[i];
-                items[i] = items[j];
-                items[j] = temp;
-                i++;
-                j--;
-            }
         }
+        swap(pivotIndexCounter, high);
+        return pivotIndexCounter;
 
-        // if there are still elements on the left or right side of the partition
-        if (low < j) {
-            quickSort(items, low, j);
+    }
+
+    private void swap(int firstIndex, int secondIndex) {
+        if (firstIndex != secondIndex) {
+            T temp = items[firstIndex];
+            items[firstIndex] = items[secondIndex];
+            items[secondIndex] = temp;
         }
-
-        if (high > i) {
-            quickSort(items, i, high);
-        }
-
-        return items;
     }
 
     public static void main(String[] args) {
-        int[] example = {2, 5, 3, 1, 4};
-        System.out.println(Arrays.toString(quickSort(example, 0, 4)));
+        Integer[] exampleInt = {2, 5, 3, 1, 4};
+        String[] exampleStr = {"B", "A", "C", "D", "F", "E"};
+        System.out.println(Arrays.toString(exampleInt) + " | " + Arrays.toString(exampleStr));
+        new QuickSort<>(exampleInt).sort();
+        new QuickSort<>(exampleStr).sort();
+        System.out.println(Arrays.toString(exampleInt) + " | " + Arrays.toString(exampleStr));
     }
 }

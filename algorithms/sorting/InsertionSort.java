@@ -1,31 +1,54 @@
 /*
 Insertion sort divides an array into sorted (left) and unsorted (right) parts, and inserts elements to the sortet part
 according to its position comparing them to the previous elements in the sorted part.
+Works better on smaller chunks of data.
 Best Time Complexity: O(n)
 Average Time Complexity: O(n^2)
 Worst Time Complexity: O(n^2)
 Space Complexity: O(1)
  */
 import java.util.Arrays;
-public class InsertionSort {
-    
-    public static int[] insertionSort(int[] items) {
-        int n = items.length; 
-        for (int i = 1; i < n; i++) { // iterate from the second element to the last
-            int key = items[i];
-            int j = i - 1;
+import java.util.stream.IntStream;
+public class IsertionSort<T extends Comparable<T>> {
 
-            while (j >= 0 && items[j] > key) {
-                items[j + 1] = items[j]; // shift the element at index j one position to the right
-                j--; // decrement the value of j by 1 to continue comparing the key with previous elements
+    private final T[] items;
+
+    public IsertionSort(T[] items) {
+        this.items = items;
+    }
+
+    public void sortSimple() {
+        for (int i = 1; i < items.length; i++) {
+            int j = i;
+            while (j > 0 && items[j].compareTo(items[j - 1]) < 0) {
+                T temp = items[j];
+                items[j] = items[j - 1];
+                items[j - 1] = temp;
+                j--;
             }
-            items[j + 1] = key; // insert the key value into its correct position
         }
-        return items;
+    }
+
+    public void sortStream(int index) {
+        if (index > 0 && items[index].compareTo(items[index - 1]) < 0) {
+            T temp = items[index];
+            items[index] = items[index - 1];
+            items[index - 1] = temp;
+            sortStream(index - 1);
+        }
+    }
+
+    public void sortStream() {
+        IntStream.range(1, items.length)
+                .forEach(this::sortStream);
     }
 
     public static void main(String[] args) {
-        int[] example = {2, 5, 3, 1, 4};
-        System.out.println(Arrays.toString(insertionSort(example)));
+        Integer[] exampleInt = {2, 5, 3, 1, 4};
+        String[] exampleStr = {"B", "A", "C", "D", "F", "E"};
+        System.out.println(Arrays.toString(exampleInt) + " | " + Arrays.toString(exampleStr));
+        new IsertionSort<>(exampleInt).sortSimple();
+        new IsertionSort<>(exampleStr).sortStream();
+        System.out.println(Arrays.toString(exampleInt) + " | " + Arrays.toString(exampleStr));
     }
 }
