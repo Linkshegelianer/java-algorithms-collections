@@ -25,12 +25,26 @@ public class IsPalindrome {
         return true;
     }
 
+    public static boolean isPalInteger(int x) {
+        String str = String.valueOf(x);
+        int n = str.length();
+
+        for (int i = 0; i < n/2; i++) {
+            if (str.charAt(i) != str.charAt(n - i - 1)) return false;
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
         String exampleTrue = "radar";
         String exampleFalse = "word";
+        int exampleTrueInt = 121;
+        int exampleFalseInt = 489;
         System.out.println(isPalRecursive(exampleTrue));
         System.out.println(isPalRecursive(exampleFalse));
         System.out.println(isPalIterative(exampleTrue));
         System.out.println(isPalIterative(exampleFalse));
+        System.out.println(isPalInteger(exampleTrueInt));
+        System.out.println(isPalInteger(exampleFalseInt));
     }
 }
