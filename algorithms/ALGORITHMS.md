@@ -33,7 +33,7 @@
     * [Mirror matrix](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/matrices/MirrorMatrix.java)
     * [Multiply matrix](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/matrices/MultiplyMatrix.java)
     * [Rotate Matrix](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/matrices/RotateMatrix.java)
-* **Matrices**
+* **Lists**
     * [Merge two Linked Lists](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/lists/MergeTwoLinkedLists.java)
     * [Reverse Linked List](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/lists/ReverseLinkedList.java)
 * **Common interview questions**

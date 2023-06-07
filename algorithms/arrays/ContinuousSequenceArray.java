@@ -19,7 +19,7 @@ public class ContinuousSequenceArray {
 
 	public static void main(String[] args) {
 		int[] example1 = {2};
-	       	int[] example2 = {3, 4, 5};
+		int[] example2 = {3, 4, 5};
 		int[] example3 = {2, 5, 7};
 		System.out.println(isContinuousSequense(example1)); // false
 		System.out.println(isContinuousSequense(example2)); // true
