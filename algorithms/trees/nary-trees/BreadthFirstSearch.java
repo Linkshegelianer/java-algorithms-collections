@@ -1,8 +1,8 @@
 /*
 One of the grapth traversal techniques that visits every vertex once and only once.
 To strart, we need to provide a starting vertex of the algorithm (root node of the graph).
-BFS explores all of its neighbors before moving on to the vertices at the next depth level (edge).
-When a vertex is discovered it should be added to a queue. When this queue is empty the grapgh is considerev traversed.
+When a vertex is discovered, it should be added to a queue. 
+When this queue is empty, the graph is considered traversed.
  */
 import java.util.List;
 import java.util.LinkedList;
