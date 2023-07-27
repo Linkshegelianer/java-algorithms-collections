@@ -8,6 +8,9 @@ ArrayList is an implementation of List interface, utilizing a dynamically resiza
 | Regular Array | Shifting the elements one by one to make space | The necessary elements must be shifted to the left to fill the gap created by the removal | Manual |
 | ArrayList | A new array is allocated, the existing elements are transferred to the new array, and then the length is adjusted to free up space | Internal mechanism of ArrayList manages the removal process, requires `trimToSize()` to adjust the capacity to match the number of elements | Automatic |
 
+**Advantages of a simple array over ArrayList (from OCP)**:
+* Accessing elements is a little faster
+* Array consumes less memory than ArrayList
 
 **Time complexity**  
 | Access by index | Search by value | Insert element | Remove element |   
