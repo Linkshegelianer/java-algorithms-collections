@@ -16,7 +16,7 @@
     * [Fib numbers](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/math/FibNumbers.java)
     * [Pascal's triangle](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/math/PascalsTriangle.java)
     * [Power of three](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/math/PowerOfThree.java)
-    * Armstrong Number
+    * [Armstrong Number](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/math/ArmstrongNumber.java)
 * **Arrays**
     * [Swap elements in array](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/SwapElementsInArray.java)
     * [Calculate sum in array](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/arrays/CalculateSumInArray.java)

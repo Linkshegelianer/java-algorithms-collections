@@ -4,11 +4,8 @@ To strart, we need to provide a starting vertex of the algorithm (root node of t
 When a vertex is discovered, it should be added to a queue. 
 When this queue is empty, the graph is considered traversed.
  */
-import java.util.List;
-import java.util.LinkedList;
-import java.util.Set;
-import java.util.HashSet;
-import java.util.Deque;
+import java.util.*;
+
 public class BreadthFirstSearch<T> {
 
     private static class Vertex<T> {
