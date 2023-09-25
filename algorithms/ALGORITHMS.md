@@ -49,19 +49,22 @@
     * Voronoi Diagram
     * Graham Scan
     * Gift wrapping (Jarvis)
+
+[SEE WHOLE TREE TRAVERSAL ALGORITHMS REPO](https://github.com/Linkshegelianer/java-tree-traversal-algorithms)
 * **Trees**
     * Binary trees
-      * [Binary Tree Reversal](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/trees/binary-trees/BinaryTreeReversal.java)
+      * Binary Tree Reversal
       * Breadth First Search
       * Depth First Search
-      * [In Order Traversal](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/trees/binary-trees/InOrderTraversal.java)
-      * [Post Order Traversal](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/trees/binary-trees/PostOrderTraversal.java)
-      * [Pre Order Traversal](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/trees/binary-trees/PreOrderTraversal.java)
+      * [In Order Traversal](https://github.com/Linkshegelianer/java-tree-traversal-algorithms/blob/19543aea7bfabf4a8d11be799e7f967ade998006/traversals/src/main/java/code/algorithms/InOrderTraversal.java#L12C24-L12C24)
+      * [Post Order Traversal](https://github.com/Linkshegelianer/java-tree-traversal-algorithms/blob/19543aea7bfabf4a8d11be799e7f967ade998006/traversals/src/main/java/code/algorithms/PostOrderTraversal.java#L15)
+      * [Pre Order Traversal](https://github.com/Linkshegelianer/java-tree-traversal-algorithms/blob/19543aea7bfabf4a8d11be799e7f967ade998006/traversals/src/main/java/code/algorithms/PreOrderTraversal.java#L15)
     * N-ary trees
-      * [Breadth First Search](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/trees/nary-trees/BreadthFirstSearch.java)
-      * [Depth First Search](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/trees/nary-trees/DepthFirstSearch.java)
-      * [Post Order Traversal](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/trees/nary-trees/PostOrderTraversal.java)
-      * [Pre Order Traversal](https://github.com/Linkshegelianer/java-algorithms-collections/blob/main/algorithms/trees/nary-trees/PreOrderTraversal.java)
+      * Breadth First Search
+      * Depth First Search
+      * [Post Order Traversal](https://github.com/Linkshegelianer/java-tree-traversal-algorithms/blob/19543aea7bfabf4a8d11be799e7f967ade998006/traversals/src/main/java/code/algorithms/PostOrderTraversal.java#L39)
+      * [Pre Order Traversal](https://github.com/Linkshegelianer/java-tree-traversal-algorithms/blob/19543aea7bfabf4a8d11be799e7f967ade998006/traversals/src/main/java/code/algorithms/PreOrderTraversal.java#L42)
+      * [In Order Traversal](https://github.com/Linkshegelianer/java-tree-traversal-algorithms/blob/19543aea7bfabf4a8d11be799e7f967ade998006/traversals/src/main/java/code/algorithms/InOrderTraversal.java#L38C6-L38C6)
 * **Classical algorithms**
     * Edit distance
     * Knapsack problem

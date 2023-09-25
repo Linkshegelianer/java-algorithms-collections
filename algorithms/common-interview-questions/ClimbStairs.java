@@ -1,4 +1,4 @@
-public class ClimbStairt {
+public class ClimbStairs {
 
 	public static int climbStairs(int n) {
 		if (n == 1) return 1;
